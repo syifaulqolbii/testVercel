@@ -7,7 +7,7 @@ app.use(express.json());
 app.get('/', (req, res)=>{
     return res.status(200).json({
         status: true,
-        message: 'ini percobaan deploy ke vercel'
+        message: 'vercel test deploy'
     });
 });
 
